@@ -1,0 +1,1058 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  max-width: 100%;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  /* background-color: #f8f7f7; */
+ 
+}
+header{
+    background-image: url("https://savory.qodeinteractive.com/wp-content/uploads/2016/10/main-home-slide1.jpg");
+   width: 100%;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+.logo{
+  width: 100px;
+  height: 70px;
+}
+.nav-section{
+display: flex;
+  justify-content:space-between;
+  text-align: center;
+  padding: 2% 3%;
+}
+ #nav{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+ }
+ .bx-plus{
+  width: 35px;
+  display: none;
+}
+ li a{
+  font-size: 16px;
+  font-weight: 600;
+  color:#d5d5d5;
+ }
+  .bx{
+  padding: 0 10px;
+  font-size: 35px;
+   color:#d5d5d5;
+ }
+#mobile-menu{
+  display:none;
+}
+#mobile-menu li a{
+  list-style: none;
+}
+
+ /* header-conten */
+ .header-conten h5{
+ font-size: 16px;
+ line-height:17px;
+ font-weight:500;
+ color: #d5d5d5;
+ text-align: center;
+ margin: 8% auto 0;
+ }
+ .header-conten h1{
+ font-size: 70px;
+ line-height:80px;
+ font-weight:500;
+ color: #d5d5d5;
+ text-align: center;
+ margin: auto;
+ padding: 10px;
+ }
+ .header-conten P{
+  width: 400px;
+ font-size: 16px;
+ line-height:30px;
+ font-weight:500;
+ color: #d5d5d5;
+ margin: auto;
+ text-align: center;
+margin-bottom: 30px;
+ }
+ .header-conten a{
+ color: #474747;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 20px 20px;
+  text-align: center;
+ }
+ .header-conten a:hover {
+ background-color: #474747;
+ color:#fff;
+ }
+ .header-conten{
+ margin-top: 70px;
+  text-align: center;
+ }
+
+ /* -----her0-content---- */
+ .hero-content h5{
+font-size: 16px;
+ line-height:17px;
+ font-weight:500;
+ color: #333;
+ text-align: center;
+ margin-top: 50px;
+ }
+ .hero-content h2{
+ font-size: 40px;
+ line-height:80px;
+ font-weight:500;
+ color: #333333;
+ text-align: center;
+ margin: auto;
+ }
+ .hero-content p{
+  width: 400px;
+ font-size: 16px;
+ line-height:30px;
+ font-weight:500;
+ color: #333333;
+ text-align: center;
+ margin: auto;
+ }
+ .hero-img{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+  margin: 4% 10%;
+ }
+ /* -----her0-content-End--- */
+
+ .containner{
+background-color: rgb(235,234,234);
+margin-top: 10%;
+
+ }
+ .row{
+  display:flex;
+  margin: 4% 8% 0;
+  padding:60px 0 ;
+ }
+ .col-1 h5{
+  font-size: 16px;
+ line-height:17px;
+ font-weight:500;
+ color: #333;
+ margin-top: 40px;
+ }
+ .col-1 h2{
+ font-size: 40px;
+ line-height:80px;
+ font-weight:500;
+ color: #333333;
+ }
+ .col-1 p{
+  font-size: 14px;
+ line-height:30px;
+ font-weight:400;
+ color: #333333;
+ margin-bottom: 30px;
+ }
+ .col-1 a{
+color: #474747;
+background-color: #fff;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px 20px;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.05);
+ }
+
+.col-1 a:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+/* __________review-content-secton_________ */
+
+.review-content {
+  background-image:url("image/wp-image41221458493720.png");
+ width: 100%;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   margin: 0;
+   padding: 0;
+}
+
+
+.content-text img{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin:auto;
+  border-radius: 50%;
+}
+.content-text p{
+ font-size: 22px;
+ line-height: 25px;
+ font-weight: 500;
+ color: #fff;
+ text-align: center;
+}
+.content-text{
+  width: 800px;
+  text-align: center;
+  height: auto;
+  margin: auto;
+   opacity: 0; 
+  animation: slideInOut 10s infinite; 
+}
+
+.mySlides {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content-text:nth-child(1) {
+  animation-delay: .1s;
+}
+
+.content-text:nth-child(2) {
+  animation-delay: 10s;
+}
+
+.content-text:nth-child(3) {
+  animation-delay: 10s; 
+}
+
+@keyframes slideInOut {
+  0%, 100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10%, 90% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* <!-- TAASTY AND CRUNCHY CONTENT-SECTIN STAERT --> */
+.row-2 h5{
+ font-size: 16px;
+ line-height:17px;
+ font-weight:500;
+ color: #333;
+ margin-top: 40px;
+ text-align: center;
+}
+.row-2 h2{
+  font-size: 40px;
+ line-height:80px;
+ font-weight:600;
+ color: #333333;
+ text-align: center;
+}
+ .row-2 p{
+  width: 400px;
+  font-size: 16px;
+ line-height:30px;
+ font-weight:400;
+ color: #333333;
+ margin: auto;
+ margin-bottom: 30px;
+ text-align: center;
+ }
+ .row-3{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 3% 5%;
+ }
+ .h4{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid rgb(94, 94, 94);
+ }
+ .row-row{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+ }
+ .col-2 p{
+  text-align: left;
+ }
+ .row-4{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  padding: 3% 4%;
+  background-color: #e7e3e3;
+
+ }
+ .col-4 img{
+  width: 100px;
+ }
+ /* ______row-5-section start_____ */
+ .row-5{
+  background-image: url("image/Beef-ribs-1024x683.jpg");
+   width: 100%;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+ }
+ .row-5 h5{
+ font-size: 16px;
+ line-height:17px;
+ font-weight:500;
+ text-align: center;
+ color: #fff;
+ padding-top: 100px;
+ }
+ .row-5 h2{
+ font-size: 40px;
+ font-weight:600;
+ text-align: center;
+ color: #fff;
+padding-bottom: 10px;
+ }
+.row-5 p{
+font-size: 18px;
+ line-height:20px;
+ font-weight:500;
+ text-align: center;
+ color: #fff;
+ padding-top: 10px
+}
+ /* _______TODAY’S BEST OFFER____ */
+ .row-6{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  padding: 2% 10%;
+ }
+ .col-5 h2{
+ font-size: 40px;
+ font-weight:600;
+ text-align: center;
+ color: #333;
+ margin-top: 60px;
+ }
+ .col-5 p{
+  font-size: 18px;
+ line-height:25px;
+ font-weight:500;
+ text-align: center;
+ color: #333;
+ padding-top: 40px;
+ }
+ /* _____TOUR CHEF section-start_____  */
+
+
+ .row-7{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  padding: 2% 6%;
+   background-color: rgb(235,234,234);
+ }
+ .col-7 h5{
+ font-size: 20px;
+ line-height:17px;
+ font-weight:500;
+ text-align: start;
+ color: #333;
+ padding-top: 20%;
+ }
+ .col-7 h2{
+   font-size: 40px;
+ font-weight:600;
+ text-align: start;
+ color: #333;
+ padding-top: 10px;
+ }
+ .col-7 p{
+   font-size: 18px;
+ font-weight:300;
+ text-align: start;
+ color: #333;
+ padding-top: 10px;
+ padding-bottom: 50px;
+ }
+ .col-7 a{
+color: #474747;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 20px 20px;
+  text-align: center;
+ 
+ }
+ .col-7 a:hover {
+ background-color: #474747;
+ color:#fff;
+ }
+ /* ________Bolg section-star_____ */
+ .bolg h5{
+  font-size: 20px;
+ line-height:17px;
+ font-weight:500;
+ text-align: center;
+ color: #333;
+ padding-top: 50px;
+ }
+ .bolg h2{
+  font-size: 40px;
+ font-weight:600;
+ text-align: center;
+ color: #333;
+ padding-top: 10px;
+ }
+ .bolg P{
+   font-size: 18px;
+ font-weight:300;
+ text-align: center;
+ color: #333;
+ padding-top: 10px;
+ padding-bottom: 50px;
+ }
+ .bolg-content{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  padding: 2% 5%;
+ }
+ .col-bolg img{
+  width: 350px;
+ }
+ .col-bolg h5{
+ font-size: 20px;
+ line-height:17px;
+ font-weight:500;
+ text-align: start;
+ color: #333;
+ padding-top: 30px;
+ }
+ .col-bolg h3{
+ font-size: 25px;
+ font-weight:500;
+ text-align: start;
+ color: #333;
+ padding: 10px;
+ }
+ .col-bolg P{
+  width: 350px;
+   font-size: 18px;
+ font-weight:300;
+ text-align: start;
+ color: #333;
+ margin: auto;
+ padding-top: 10px;
+ padding: 10px;
+ }
+ /* _____footer-section-start___ */
+ footer{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  text-align: center;
+  padding: 3% 6%;
+  background-color: #333333;
+ }
+ .footer-col img{
+  width: 120px;
+  text-align: center;
+ }
+ .footer-col p{
+   font-size: 20px;
+ font-weight:600;
+ text-align: center;
+ color: #fff;
+ padding-top: 10px;
+ padding: 10px;
+ }
+ .footer-col h5{
+   font-size: 20px;
+ font-weight:600;
+ text-align: center;
+ color: #fff;
+ padding-top: 10px;
+ padding: 10px;
+ }
+ .footer-img{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:10px;
+  padding: 10px;
+ }
+ footer p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+ }
+  
+ /* Respons design width 1150px */
+
+@media (max-width:1150px){
+  header{
+     height: 100vh;
+  }
+.row-row{
+  width: 400px;
+  text-align: center;
+ }
+ .hero-img img{
+  width: 370px;
+ }
+ .row{
+  flex-direction: column;
+ }
+ .review-content{
+   height: 50vh;
+ }
+ .mySlides{
+  height: 50vh;
+ }
+ .row img{
+  width: 450px;
+  text-align: center;
+  padding-top:70px ;
+ }
+ .col-4{
+  width: 450px;
+ }
+.row-4{
+  grid-template-columns: repeat(2,1fr);
+ }
+ .row-5{
+   height: 60vh;
+ }
+  .row-6{
+  grid-template-columns:repeat(1,1fr);
+ }
+  .row-7{
+  grid-template-columns:repeat(1,1fr);
+ }
+ .bolg-content{
+  /* grid-template-columns:repeat(1,1fr);
+  text-align: center; */
+  padding: 2% 2%;
+   }
+   .col-bolg img{
+  width: 300px;
+  pad: 10px;
+ }
+.footer-img{
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+ 
+ }
+ .col-6 img{
+  width: 500px;
+  text-align: center;
+ }
+}
+/* ____respons tab width 900px____ */
+@media (max-width:900px){
+#nav{
+  display: none;
+}
+.nav-section{
+  background-color: #fff;
+  margin-bottom: 0;
+}
+ .col-4{
+  width: 350px;
+ }
+ #mobile-menu{
+  display:block;
+}
+
+ nav#mobile-menu {
+     position: absolute;
+      top: 10%;
+      left: -100%;
+      width: 100%;
+      background: #fff;
+      transition: left 0.3s ease;
+      z-index: 1000;
+      margin-top: 0;
+      padding-left: 20px;
+    }
+    .bx{
+      color: #000;
+    }
+    .logo img{
+border-radius:50% ;
+background-color: #333;
+    }
+  li a {
+     
+      color: #000;
+      font-size: 20px;
+      list-style: none;
+    }
+ 
+    .header-text{
+
+ }
+  .hero-img{
+  grid-template-columns:repeat(1,1fr);
+  text-align: center;
+  margin: auto;
+  padding: 4% 18%;
+  
+ }
+  .row-3{
+  display: flex;
+ flex-direction: column;
+  text-align: center;
+  padding: 3% 12%;
+  margin: auto;
+ }
+ .row-4{
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+ align-items: center;
+ padding:5% 18%;
+  margin: auto;
+ }
+ .bolg-content{
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  padding: 2% 5%;
+  text-align: center;
+ }
+  footer{
+  display: grid;
+  grid-template-columns:repeat(1,1fr);
+  text-align: center;
+  padding: 3% 6%;
+  background-color: #333333;
+ }
+ .footer-img img{
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+  margin: auto;
+
+ }
+
+ }
+
+ @media (max-width:500px){
+  .header-text h1{
+    font-size: 50px;
+  }
+  .hero-content h2{
+    font-size: 30px;
+  }
+ .col-6 img{
+  width: 400px;
+  text-align: center;
+ }
+  .hero-img{
+  grid-template-columns:repeat(1,1fr);
+  width: 420px;
+  text-align: center;
+  margin: auto;
+  padding: 4% 6%;
+  
+ }
+ .row img{
+  width: 400px;
+  margin: auto;
+ }
+  .row-3{
+  display: flex;
+ flex-direction: column;
+  text-align: center;
+padding: 0;
+  margin: auto;
+ }
+  .row-row{
+  width: 400px;
+  text-align: center;
+  margin: auto;
+ }
+ }
+
+ /* ____________________________________service-part____________________________________ */
+ .services-header{
+  background-image: url(image/pngtree-food-steak-delicious-background-picture-image_2422684.jpg);
+  width:100%;
+  height: 100vh;
+   background-position: center;
+   background-size: cover;
+ }
+ .services h1{
+  padding: 20px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+ }
+ .services p{
+  width: 380px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin:auto;
+ }
+ .tasty h2{
+
+  font-size: 50px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+ }
+ .tasty h5{
+   padding-top: 50px;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+ }
+ .tasty p{
+  width: 400px;
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  margin:auto;
+ }
+ .row-8{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  text-align: center;
+  padding: 40px;
+ }
+ .row-8 img{
+  width: 150px;
+  text-align: center;
+  margin: auto;
+ }
+ .col-8 p{
+  width: 200px;
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  margin:auto;
+ }
+ /* _________Take Away Food section-start_____________ */
+ .row-9{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+background-color: #e7e3e3;
+padding: 20px 100px;
+
+ }
+ .col-9 p{
+  width: 400px;
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  margin:auto;
+ }
+ .row-9 img{
+width:400px;
+align-items: center;
+ }
+  .col-9 h2{
+  font-size: 50px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+ }
+ .col-9 h5{
+   padding-top: 50px;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+ }
+
+ /* ______TASTY AND CRUNCHY START____ */
+ .crunchy-section h5{
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+ }
+ .crunchy-section h2{
+   font-size: 50px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+ }
+ .crunchy-section p{
+  width: 400px;
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  margin:auto;
+ }
+ .crunchy-part{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 4% 6%;
+ }
+ .crunchy-img img{
+  width: 350px;
+  height: 300px;
+ }
+ .crunchy-img h3{
+ font-size: 25px;
+  color: #333;
+  font-weight: 600;
+  text-align: start;
+ }
+ .crunchy-img p{
+  width: 350px;
+ font-size: 14px;
+color: #333;
+line-height: 30px;
+  text-align: start;
+ }
+ .crunchy-img a{
+ font-size: 16px;
+color: #141313;
+line-height: 30px;
+font-weight: 600;
+  text-align: start;
+  padding-top: 10px;
+ }
+ @media (max-width:900px){
+  .row-8{
+  display: grid;
+  grid-template-columns:repeat(1,1fr);
+  text-align: center;
+  padding: 40px;
+ }
+  .col-8 p{
+    width: 400px;
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  margin:auto;
+ }
+ .row-9{
+ flex-direction: column;
+margin: auto;
+align-items:center;
+background-color: #e7e3e3;
+padding: 2%;
+}
+.row-9 img{
+width:400px;
+align-items: center;
+padding-top: 50px;
+ }
+ .crunchy-part{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  text-align: center;
+  margin: auto;
+  gap: 20px;
+  padding: 2%;
+ }
+ .crunchy-img img{
+  width: 450px;
+ }
+ /* .crunchy-img{
+  width: 550px;
+  height: 500px;
+ } */
+ .crunchy-img h3{
+ font-size: 25px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+ }
+  .crunchy-img p{
+  width: 400px;
+ font-size: 14px;
+color: #333;
+text-align: center;
+line-height: 30px;
+ }
+ .crunchy-img a{
+ font-size: 16px;
+color: #141313;
+line-height: 30px;
+font-weight: 600;
+align-items: center;
+ }
+
+ }
+
+ /* ________________________SHOP_______________________ */
+
+ .shop-header{
+  background-image: url("https://savory.qodeinteractive.com/wp-content/uploads/2016/04/shop-title.jpg");
+ width:100%;
+  height: 100vh;
+   background-position: center;
+   background-size: cover;
+  
+ }
+
+  .header-shop h1{
+  padding: 20px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+ }
+ .header-shop p{
+  width: 500px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin:auto;
+ }
+ /* .food-section{
+ display:grid;
+  grid-template-columns:repeat(3,1fr);
+  justify-content: center;
+  gap: 20px;
+padding: 5% 10%;
+margin: auto;
+ } */
+.food-part{
+  width: 900px;
+  height: 350px;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.food-text{
+  position: relative;
+}
+.food-text:hover .buy-btn {
+  display: flex;
+}
+.food-text:hover img {
+  transform: scale(1.1);
+}
+
+ .buy-btn a{
+  padding: 10px 20px;
+  color: #141313;
+  background-color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+ }
+ .food-img{
+   width: 250px;
+   height: 250px;
+  margin: auto;
+  overflow: hidden;
+ }
+ .buy-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+   height: 250px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.363);
+  transition: hover 0.5 ease;
+}
+ .bxs-star{
+  color: #f58d05;
+  font-size: 20px;
+  padding: 0;
+ }
+ .price-content{
+  display: flex;
+  justify-content: space-between;
+  padding:10px 20px 10px 0;
+ }
+ @media (max-width:900px){
+  .food-part{
+  width: 750px;
+  height: 300px;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.food-img{
+   width: 200px;
+   height: 200px;
+  margin: auto;
+  overflow: hidden;
+ }
+  .buy-btn{
+  width: 200px;
+   height: 200px;
+ 
+ }
+}
+ @media (max-width:500px){
+  .food-part{
+flex-direction: column;
+  width: 430px;
+ height: auto;
+ margin: auto;
+ padding: 0;
+}
+
+ .food-img{
+   width: 400px;
+   height: 300px;
+   padding: 8px;
+  margin: auto;
+  overflow: hidden;
+ }
+
+  .buy-btn{
+     width: 400px;
+   height: 300px;
+ 
+ }
+ .buy-btn a{
+  padding: 8px 8px;
+  color: #141313;
+  background-color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+ }
+ .header-shop p{
+  width: 400px;
+  font-size: 14px;
+  margin:auto;
+ }
+ }
